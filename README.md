@@ -32,10 +32,14 @@ Performing phoneme classification on the TIMIT dataset by training and testing g
 Check out the steps in test.ipynb
 
 ## Folders in repo:
-    - features - Contain mfcc features, along with delta features(0,1,2), of training set and testing set of TIMIT dataset. Saved as train1.hdf, train2.hdf, train3.hdf and a similar naming scheme for test set too.
+    - features - Contain mfcc features, along with delta features(0,1,2), of training set and testing set  
+    of TIMIT dataset. Saved as train1.hdf, train2.hdf, train3.hdf and a similar naming scheme for test set  
+    too. **The folder is not uploaded here due to size constraints. See the last section, for the  
+    downloadable google drive link.**
     - models - Contains pickled trained models for all phonemes
     - TIMIT - contains files of the TIMIT dataset
-    - results - contains 2 files. The observations.txt file contains the results as observed. The report.odt/pdf contains the discussion surrounding the observations as part of the entire report.
+    - results - contains 2 files. The observations.txt file contains the results as observed.   
+    The report.odt/pdf contains the discussion surrounding the observations as part of the entire report.
 
 ## Other files in repo:
     - per.py - The per.py file is imported as an external file in test.ipynb file, for using it's phoneme error rate functionality.
@@ -49,3 +53,6 @@ Check out the steps in test.ipynb
     - kaldi_60_48_39.map  (Preprocessing file) 
     - mapping.py          (Preprocessing file) 
     - maps                (Preprocessing file)
+
+## Note:
+The features directory was too large to upload, and can be downloaded from this link:
