@@ -34,8 +34,8 @@ Check out the steps in test.ipynb
 ## Folders in repo:
     - features - Contain mfcc features, along with delta features(0,1,2), of training set and testing set  
     of TIMIT dataset. Saved as train1.hdf, train2.hdf, train3.hdf and a similar naming scheme for test set  
-    too. **The folder is not uploaded here due to size constraints. See the last section, for the  
-    downloadable google drive link.**
+    too. The folder is not uploaded here due to size constraints. See the last section, for the__  
+    _downloadable google drive link.
     - models - Contains pickled trained models for all phonemes
     - TIMIT - contains files of the TIMIT dataset
     - results - contains 2 files. The observations.txt file contains the results as observed.   
@@ -56,3 +56,4 @@ Check out the steps in test.ipynb
 
 ## Note:
 The features directory was too large to upload, and can be downloaded from this link:
+[Features](https://drive.google.com/open?id=1za_LjJMtHfzVfMJY0jTZs49tGsaqdc3c)
