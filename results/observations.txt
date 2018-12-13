@@ -1,0 +1,84 @@
+Observations
+
+1)
+MFCC + 0 delta => 13 features
+No of gmm components = 64
+Training accuracy = 18.114291213487927 %
+Testing accuracy = 14.343975556834787 %
+Phoneme error rate = 87.76314834307286 %
+
+2)
+MFCC + 0 delta => 13 features
+No of gmm components = 2
+Training accuracy = 11.893399582545856 %
+Testing accuracy = 11.619359695346057 %
+Phoneme error rate = 89.15896882145839 %
+
+3)MFCC + 0 delta => 13 features
+No of gmm components = 4
+Training accuracy = 13.906269333132773 %
+Testing accuracy = 13.65872559004561 %
+Phoneme error rate = 88.92773099585011
+	
+4)MFCC + 0 delta => 13 features
+No of gmm components = 8
+Training accuracy = 15.1322679437755 %
+Testing accuracy = 14.606783863968472 %
+Phoneme error rate = 88.56926699575332
+
+5)MFCC + 0 delta => 13 features
+No of gmm components = 16
+Training accuracy =  16.07554286425947%
+Testing accuracy =  15.027232874285968%
+Phoneme error rate = 88.22338572102646
+
+
+6)MFCC + 0 delta => 13 features
+No of gmm components = 32
+Training accuracy = 16.93649149281505 %
+Testing accuracy = 14.859407518930167 %
+Phoneme error rate = 88.05866090765005
+
+
+7)MFCC + 0 delta => 13 features
+No of gmm components = 128
+Training accuracy =  20.535800210748835 %
+Testing accuracy = 13.844263383961387 %
+Phoneme error rate = 88.0895883996951	
+
+
+8)MFCC + 0 delta => 13 features
+No of gmm components = 256
+Training accuracy =  25.223465742800695%
+Testing accuracy =  13.515033432227783%
+Phoneme error rate = 88.15495013792602
+
+9)MFCC + 0 delta => 12 features (without energy coefficient)
+No of gmm components = 64
+Training accuracy =  16.552275173609004 %
+Testing accuracy =  13.238276579728115 %
+Phoneme error rate = 88.89604733040542
+
+10)MFCC + 1 delta => 26 features
+No of gmm components = 64
+Training accuracy =  22.82451964873037 %
+Testing accuracy =  18.93171854935128 %
+Phoneme error rate = 87.58912763803693
+
+11)MFCC + 1 delta => 24 features (without energy coefficients)
+No of gmm components = 64
+Training accuracy =  20.713958188271658 %
+Testing accuracy =  17.12372138334145 %
+Phoneme error rate = 84.91502123334907
+
+12)MFCC + 2 delta => 39 features
+No of gmm componenents = 64
+Training accuracy = 22.820880470796407 %
+Testing accuracy = 19.138068458575034 %
+Phoneme error rate = 82.85112155638635
+
+13)MFCC + 2 delta => 36 features (without energy coefficients)
+No of gmm componenents = 64
+Training accuracy = 20.685329988524458 %
+Testing accuracy = 17.14276225479343 %		
+Phoneme error rate = 84.90526659649377
