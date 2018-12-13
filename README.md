@@ -22,13 +22,13 @@ Performing phoneme classification on the TIMIT dataset by training and testing g
        - Frame-level accuracy and Phoneme error rate are calculated using ground truth array and predicted labels array
 
 ## To run :
-### Training
+### 1. Training
     - To perform training, first extract mfcc features (including 0, 1 and 2 delta features) for each train and test, using the foll. command:
 	Generic : 'python import_timit.py --timit <path of TIMIT directory> --n_delta <No of delta features to be added>'
 	Sample  : 'python import_timit.py --timit TIMIT/ --n_delta 1'
     - Then check out the steps in train.ipynb
 
-### Testing
+### 2. Testing
 Check out the steps in test.ipynb
 
 ## Folders in repo:
